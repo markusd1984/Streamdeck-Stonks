@@ -119,8 +119,7 @@ It is possible to enable/disable and adjust the limits right on the device. A lo
 
 ## Technical Details
 
-To view the output of the plugin you can point a browser to 
-[http://localhost:23654](http://localhost:23654) and click on *com.andomation.stream.stonks*.
+To debug and view the output of the plugin using Google Chrome's web developer tools you will first need to [enable the HTML remote debugger in Stream Deck](https://developer.elgato.com/documentation/stream-deck/sdk/create-your-own-plugin/), then open [http://localhost:23654](http://localhost:23654) in chrome and click on *com.andomation.stream.stonks*. 
 
 ###Requirements
 
