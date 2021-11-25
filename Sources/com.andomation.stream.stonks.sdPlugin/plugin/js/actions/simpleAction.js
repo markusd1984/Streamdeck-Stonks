@@ -463,6 +463,19 @@ class SimpleAction extends Action {
 
     drawSymbol(){
         let symbol = this.symbol.split('-')[0]
+        
+        if(this.symbol.includes('USD')) {
+            symbol = symbol+'$'
+        }
+        
+        if(this.symbol.includes('EUR')) {
+            symbol = symbol+'€'
+        }
+        
+        if(this.symbol.includes('GBP')) {
+            symbol = symbol+'£'
+        }
+        
         this.drawRight(symbol, COLOR_FOREGROUND, 18, 24, 600, 2)
     }
 
