@@ -367,7 +367,7 @@ class SimpleAction extends Action {
                 break
             case ViewType.LIMITS:
                 this.drawSymbol(jsn);
-                this.drawLeft('limit',COLOR_FOREGROUND, 16, 21, 600, 6)
+                this.drawLeft('limits',COLOR_FOREGROUND, 16, 21, 600, 6)
                 this.limitManager.updateInfoView(jsn)
                 break
             case ViewType.DAY_DEC :
