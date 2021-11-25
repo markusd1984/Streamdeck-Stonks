@@ -504,7 +504,7 @@ class SimpleAction extends Action {
         var yPos = isFooter ? [81,103,126,88] : [52,89,126,75]
 
         if(this.currentView != ViewType.TICKER) {
-            this.drawLeft('-/+',COLOR_FOREGROUND, 16, 21, 600, 6)
+            this.drawLeft('- / +',COLOR_FOREGROUND, 16, 21, 600, 6)
             high = this.currentView == ViewType.DAY_PERC ? this.data.dayHighPerc + '%' : this.data.dayHigh.abbreviateNumber()
             low = this.currentView == ViewType.DAY_PERC ? this.data.dayLowPerc + '%' : this.data.dayLow.abbreviateNumber()
         }
